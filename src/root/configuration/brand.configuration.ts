@@ -20,6 +20,6 @@ export const BRAND_APPLICATION_CONFIGURATION: BrandConfiguration = {
   name: 'du Hub du Sud',
   sousTitre: "des lieux d'inclusion numérique",
   logo: './assets/img/logo/hubs/100/Hub du Sud.png',
-  logo: './assets/img/logo/hubs/100/Hub du Sud.png',
+  logoAvecTexte: './assets/img/logo/hubs/100/Hub du Sud.png',
   illustration: 'svg-paca.svg'
 };
