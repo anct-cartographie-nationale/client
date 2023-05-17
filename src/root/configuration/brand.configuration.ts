@@ -17,9 +17,9 @@ export const BRAND_CONFIGURATION: BrandConfiguration = {
 };
 
 export const BRAND_APPLICATION_CONFIGURATION: BrandConfiguration = {
-  name: 'Nationale',
+  name: 'du Hub du Sud',
   sousTitre: "des lieux d'inclusion numérique",
-  logo: './assets/img/logo/cartographie-nationale-brand.png',
-  logoAvecTexte: './assets/img/logo/cartographie-nationale-brand-text.png',
-  illustration: 'svg-france-et-outremer.svg'
+  logo: './assets/img/logo/hubs/100/Hub du Sud.png',
+  logo: './assets/img/logo/hubs/100/Hub du Sud.png',
+  illustration: 'svg-paca.svg'
 };

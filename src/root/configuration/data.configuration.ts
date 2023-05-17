@@ -18,5 +18,5 @@ export const DATA_TOKEN: InjectionToken<DataConfiguration> = new InjectionToken<
 
 export const DATA_CONFIGURATION: DataConfiguration = {
   lieuxDeMediationNumerique:
-    '../../assets/data/20230516-hub-du-sud-lieux-de-mediation-numeriques-provence-alpes-cote-d-azur.json'
+    '../../assets/data/20230517-hub-du-sud-lieux-de-mediation-numeriques-provence-alpes-cote-d-azur.json'
 };
