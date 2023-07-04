@@ -17,5 +17,5 @@ export const DATA_COORDINATEURS_CONFIGURATION: DataCoordinateursConfiguration = 
 export const DATA_TOKEN: InjectionToken<DataConfiguration> = new InjectionToken<DataConfiguration>('data.configuration');
 
 export const DATA_CONFIGURATION: DataConfiguration = {
-  lieuxDeMediationNumerique: '/assets/data/lieux-inclusion-numerique.json'
+  lieuxDeMediationNumerique: 'https://www.data.gouv.fr/fr/datasets/r/566546e4-46a2-49ac-8544-1a208585a220'
 };

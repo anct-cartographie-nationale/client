@@ -11,15 +11,15 @@ export type BrandConfiguration = {
 export const BRAND_TOKEN: InjectionToken<BrandConfiguration> = new InjectionToken<BrandConfiguration>('brand.configuration');
 
 export const BRAND_CONFIGURATION: BrandConfiguration = {
-  name: 'Nationale',
+  name: 'vendéenne',
   logo: '',
   illustration: 'svg-france-et-outremer.svg'
 };
 
 export const BRAND_APPLICATION_CONFIGURATION: BrandConfiguration = {
-  name: 'Nationale',
-  sousTitre: "des lieux d'inclusion numérique",
-  logo: './assets/img/logo/cartographie-nationale-brand.png',
-  logoAvecTexte: './assets/img/logo/cartographie-nationale-brand-text.png',
-  illustration: 'svg-france-et-outremer.svg'
+  name: 'vendéenne',
+  sousTitre: '',
+  logo: './assets/img/logo/vendee-numerique-brand.svg',
+  logoAvecTexte: './assets/img/logo/vendee-numerique-brand.svg',
+  illustration: 'svg-pays-de-la-loire.svg'
 };

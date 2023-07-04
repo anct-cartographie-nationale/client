@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Cartographie Nationale des lieux médiation numérique",
+  "name": "Cartographie vendéenne des lieux médiation numérique",
   "short_name": "CNLMN",
   "start_url": ".",
   "theme_color": "#000091",
