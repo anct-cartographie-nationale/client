@@ -69,8 +69,6 @@ const toLieuxByLongitude = (LieuxMediationNumerique: LieuMediationNumeriquePrese
     ): number => lieuMediationNumeriqueB.latitude - lieuMediationNumeriqueA.latitude
   );
 
-const regularZoomToScreenSize = (zoomRegular: number): number => (window.innerWidth >= 1400 ? zoomRegular : 4.8);
-
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './cartographie.layout.html',
@@ -80,7 +78,7 @@ export class CartographieLayout {
   private _showMapForSmallDevices$: BehaviorSubject<boolean> = new BehaviorSubject(false);
   public showMapForSmallDevices$: Observable<boolean> = this._showMapForSmallDevices$.asObservable();
 
-  private _currentZoom$: BehaviorSubject<number> = new BehaviorSubject(regularZoomToScreenSize(this._zoomLevel.regular));
+  private _currentZoom$: BehaviorSubject<number> = new BehaviorSubject(this._zoomLevel.regular);
   public currentZoom$: Observable<number> = this._currentZoom$.asObservable();
 
   private _loadingState$: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(true);

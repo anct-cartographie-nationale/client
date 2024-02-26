@@ -9,6 +9,6 @@ export const INITIAL_POSITION_TOKEN: InjectionToken<InitialPositionConfiguration
   new InjectionToken<InitialPositionConfiguration>('brand.configuration');
 
 export const POSITION_CONFIGURATION: InitialPositionConfiguration = {
-  latitude: 46.471,
-  longitude: 2.455
+  latitude: 43.529742,
+  longitude: 5.447427
 };

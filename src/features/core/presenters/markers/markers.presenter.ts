@@ -48,7 +48,7 @@ export const getBoundsFromLocalisations = (localisations: Localisation[]): [Loca
   getBottomRightBound(localisations)
 ];
 
-const regularZoomToScreenSize = (zoomRegular: number): number => (window.innerWidth >= 1400 ? zoomRegular : 4.8);
+// const regularZoomToScreenSize = (zoomRegular: number): number => (window.innerWidth >= 1400 ? zoomRegular : 4.8);
 
 export class MarkersPresenter {
   private readonly _localisation$: BehaviorSubject<Localisation> = new BehaviorSubject<Localisation>(
@@ -56,9 +56,7 @@ export class MarkersPresenter {
   );
   public readonly localisation$: Observable<Localisation> = this._localisation$.asObservable();
 
-  private readonly _zoom$: BehaviorSubject<number> = new BehaviorSubject<number>(
-    regularZoomToScreenSize(this._zoomLevel.regular)
-  );
+  private readonly _zoom$: BehaviorSubject<number> = new BehaviorSubject<number>(this._zoomLevel.regular);
   public readonly zoom$: Observable<number> = this._zoom$.asObservable();
 
   private readonly _selected$: BehaviorSubject<string> = new BehaviorSubject<string>('');
