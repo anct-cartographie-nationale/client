@@ -31,4 +31,10 @@ export class LieuxMediationNumeriqueHttp extends LieuxMediationNumeriqueReposito
       .get<LieuMediationNumeriqueWithAidantsTransfer[]>(this.dataConfiguration.lieuxDeMediationNumerique)
       .pipe(map(toLieuxMediationNumeriqueWithAidants));
   }
+
+  public getLieuxByPostalCodes$(postalCodes: string[]): Observable<LieuMediationNumeriqueWithAidants[]> {
+    return this.getAll$().pipe(
+      map((lieux) => lieux.filter((lieu) => postalCodes.includes(lieu.adresse.code_postal.slice(0, 2) ?? '')))
+    );
+  }
 }
