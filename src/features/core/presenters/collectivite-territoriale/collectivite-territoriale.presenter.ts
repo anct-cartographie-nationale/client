@@ -21,7 +21,7 @@ const getCorseCodeDepartement = (codePostal: string): string => (isInCorseDuSud(
 
 const isInCorse = (codePostal: string): boolean => codePostal.startsWith('20');
 
-const isInOutremer = (codePostal: string): boolean => codePostal.startsWith('97');
+const isInOutremer = (codePostal: string): boolean => codePostal.startsWith('97') || codePostal.startsWith('98');
 
 const isInSaintMartin = (codePostal: string): boolean => codePostal === '97150';
 

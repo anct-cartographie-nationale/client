@@ -84,6 +84,7 @@
         <span class="my-auto">Aide</span>
       </button>
     </div>
+    {{(currentZoom$ | async) ?? 0}}
   </nav>
   <div class="d-flex flex-grow-1 overflow-hidden position-relative">
     <app-offcanvas

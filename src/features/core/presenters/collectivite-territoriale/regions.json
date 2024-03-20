@@ -262,5 +262,15 @@
       "nom": "Ultra Numérique",
       "url": "https://hub.ultranumerique.fr/"
     }
+  },
+  {
+    "code": "07",
+    "nom": "Nouvelle-Calédonie",
+    "departements": ["988"],
+    "zoom": 9,
+    "localisation": {
+      "longitude": 165.5,
+      "latitude": -21.5
+    }
   }
 ]

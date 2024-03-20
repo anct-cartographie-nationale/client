@@ -916,5 +916,14 @@
       "longitude": -63.0667,
       "latitude": 18.0667
     }
+  },
+  {
+    "code": "988",
+    "nom": "Nouvelle-Calédonie",
+    "zoom": 10,
+    "localisation": {
+      "longitude": 165.5,
+      "latitude": -21.5
+    }
   }
 ]

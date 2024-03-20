@@ -17,5 +17,5 @@ export const DATA_COORDINATEURS_CONFIGURATION: DataCoordinateursConfiguration = 
 export const DATA_TOKEN: InjectionToken<DataConfiguration> = new InjectionToken<DataConfiguration>('data.configuration');
 
 export const DATA_CONFIGURATION: DataConfiguration = {
-  lieuxDeMediationNumerique: '/assets/data/lieux-inclusion-numerique.json'
+  lieuxDeMediationNumerique: './assets/data/20240320-nouvelle-caledonie-lieux-de-mediation-numeriques-nouvelle-caledonie.json'
 };
