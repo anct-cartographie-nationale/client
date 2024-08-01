@@ -18,5 +18,5 @@ export const DATA_TOKEN: InjectionToken<DataConfiguration> = new InjectionToken<
 
 export const DATA_CONFIGURATION: DataConfiguration = {
   lieuxDeMediationNumerique:
-    'https://static.data.gouv.fr/resources/lieux-de-mediation-numerique-sur-le-territoire-le-havre-fournis-par-le-havre/20240620-150530/20240620-le-havre-lieux-de-mediation-numeriques-le-havre.json'
+    'https://cartographie.societenumerique.gouv.fr/api/v0/lieux-inclusion-numerique?source[eq]=Le%20Havre'
 };
