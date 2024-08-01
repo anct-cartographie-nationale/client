@@ -17,9 +17,9 @@ export const BRAND_CONFIGURATION: BrandConfiguration = {
 };
 
 export const BRAND_APPLICATION_CONFIGURATION: BrandConfiguration = {
-  name: 'Nationale',
+  name: 'Les Assembleurs',
   sousTitre: "des lieux d'inclusion numérique",
-  logo: './assets/img/logo/cartographie-nationale-brand.png',
-  logoAvecTexte: './assets/img/logo/cartographie-nationale-brand-text.png',
+  logo: 'https://assembleurs.co/static/Icone_logo_Assembleurs-c72c4e056eb34a846a713939501dad85.png',
+  logoAvecTexte: 'https://assembleurs.co/static/Icone_logo_Assembleurs-c72c4e056eb34a846a713939501dad85.png',
   illustration: 'svg-france-et-outremer.svg'
 };
