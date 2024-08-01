@@ -398,10 +398,5 @@ export class LieuxMediationNumeriquePresenter implements Searchable<{ id: string
         );
   }
 
-  // public lieuxMediationNumerique$: Observable<LieuMediationNumerique[]> = this.lieuxMediationNumeriqueRepository.getAll$();
-
-  public lieuxMediationNumerique$: Observable<LieuMediationNumerique[]> =
-    this.lieuxMediationNumeriqueRepository.getLieuxByPostalCodes$?.(
-      ['972'] ?? this.lieuxMediationNumeriqueRepository.getAll$()
-    );
+  public lieuxMediationNumerique$: Observable<LieuMediationNumerique[]> = this.lieuxMediationNumeriqueRepository.getAll$();
 }
