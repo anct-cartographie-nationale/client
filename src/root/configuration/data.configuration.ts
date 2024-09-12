@@ -18,5 +18,5 @@ export const DATA_TOKEN: InjectionToken<DataConfiguration> = new InjectionToken<
 
 export const DATA_CONFIGURATION: DataConfiguration = {
   lieuxDeMediationNumerique:
-    'https://cartographie.societenumerique.gouv.fr/api/v0/lieux-inclusion-numerique?source[eq]=Le%20Havre'
+    'https://cartographie.societenumerique.gouv.fr/api/v0/lieux-inclusion-numerique?adresse[eq][code_insee]=76196,76254,76305,76341,76351,76447,76552,76647'
 };
