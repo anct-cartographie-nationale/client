@@ -7,6 +7,7 @@ Ce client permet l'affichage de la [cartographie nationale de l’offre de médi
 ## Table des matières
 
 - 🪧 [À propos](#à-propos)
+- 🔗 [Liens utiles](#liens-utiles)
 - 📦 [Prérequis](#prérequis)
 - 🚀 [Installation](#installation)
 - 🛠️ [Utilisation](#utilisation)
@@ -15,6 +16,11 @@ Ce client permet l'affichage de la [cartographie nationale de l’offre de médi
 - 📚 [Documentation](#documentation)
 - 🏷️ [Gestion des versions](#gestion-des-versions)
 - 📝 [Licence](#licence)
+
+## Liens utiles
+
+- [Dashlord Incubateur des territoires](https://dashlord.incubateur.anct.gouv.fr/url/cartographie-societenumerique-gouv-fr-orientation)
+- [Schéma de données des lieux de médiation numérique](https://schema.data.gouv.fr/LaMednum/standard-mediation-num/)
 
 ## Prérequis
 
